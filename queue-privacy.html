@@ -9,39 +9,42 @@
   <h1>Privacy Policy</h1>
   <p>Effective Date: July 8, 2025</p>
 
-  <p>This Privacy Policy explains how Simple Queues ("the Bot") handles data on Discord servers where it  is installed.</p>
+  <p>This Privacy Policy explains how Simple Queues ("the Bot") collects, stores, and uses information on Discord servers where it is installed.</p>
 
   <h2>1. Information Collected</h2>
-  <p>The Bot stores minimal data required for functionality:</p>
+  <p>The Bot stores only the minimal data required for functionality:</p>
   <ul>
-    <li>Server (guild) IDs and settings</li>
-    <li>Channel and role IDs used for queueing and sessions</li>
-    <li>Queueing and session history (e.g., user joins/leaves)</li>
-    <li>Moderation role ID and bot configuration</li>
+    <li>Server (guild) IDs and related configuration settings</li>
+    <li>Channel, category, and role IDs associated with the queueing and session system</li>
+    <li>Queueing history, including when users join or leave the queue</li>
+    <li>Information needed to manage and create temporary session voice channels</li>
+    <li>Logging targets (such as log channel ID)</li>
   </ul>
 
-  <p><strong>No user messages or personally identifiable information (PII) is stored.</strong></p>
+  <p><strong>No message content, usernames, or personally identifiable information (PII) is stored.</strong></p>
 
   <h2>2. Data Usage</h2>
-  <p>The stored data is used only to provide queueing and session functionality, such as:</p>
+  <p>The stored data is used only to support the bot's features, including:</p>
   <ul>
-    <li>Managing session calls</li>
-    <li>Logging queue activity</li>
-    <li>Configuring server-specific settings</li>
+    <li>Automatically managing queueing behavior</li>
+    <li>Creating and removing temporary session voice channels</li>
+    <li>Moving users between channels when conditions are met</li>
+    <li>Logging queue events and setup activity to specified channels</li>
+    <li>Allowing administrators to configure the system via commands</li>
   </ul>
 
   <h2>3. Data Storage</h2>
-  <p>All data is stored locally using an SQLite database (`queueing_system.db`) on the bot host system. The data is not shared with third parties.</p>
+  <p>All data is stored locally in an SQLite database file (`queueing_system.db`) on the server where the bot is hosted. No data is shared with any third parties.</p>
 
   <h2>4. Data Security</h2>
-  <p>We follow standard practices to safeguard stored settings and configuration data. However, no method of transmission or storage is 100% secure.</p>
+  <p>Standard security practices are followed to protect the database and its contents. However, no system can be guaranteed completely secure.</p>
 
   <h2>5. User Controls</h2>
-  <p>Server administrators may use the `/reset-settings` command to erase all configuration and queueing data related to their server.</p>
+  <p>Server administrators may use the `/reset-settings` command at any time to erase all data associated with their server, including configuration and logs.</p>
 
   <h2>6. Contact</h2>
-  <p>If you have any questions or concerns about this policy, you may contact us at <a href="mailto:sheepiegamer20@gmail.com">sheepiegamer20@gmail.com</a>.</p>
+  <p>For questions or concerns regarding this policy, please contact <a href="mailto:sheepiegamer20@gmail.com">sheepiegamer20@gmail.com</a>.</p>
 
-  <p>This policy may be updated at any time without prior notice. Continued use of the Bot constitutes acceptance of any modifications.</p>
+  <p>This policy may be updated without prior notice. Continued use of the Bot after updates constitutes acceptance of the revised policy.</p>
 </body>
 </html>
